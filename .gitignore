@@ -1,0 +1,31 @@
+# 大文件与模型（不推送）
+models/
+output/
+test_results/
+sessions/
+
+# LLaMA-Factory 子仓库（可本地 git clone 获取）
+LLaMA-Factory/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# 环境与密钥
+.env
+.env.local
+*.pem

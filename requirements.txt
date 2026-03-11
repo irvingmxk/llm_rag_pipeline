@@ -1,0 +1,17 @@
+# LLM RAG Pipeline - app and RAG (LLaMA-Factory has its own deps)
+fastapi>=0.100.0
+uvicorn>=0.22.0
+gradio>=4.0.0
+rank_bm25>=0.2.2
+jieba>=0.42.1
+matplotlib>=3.7.0
+pandas>=1.5.0
+huggingface_hub>=0.20.0
+# Embedding 检索（可选）
+sentence-transformers>=2.2.0
+# For model inference (optional; can use LLaMA-Factory env)
+transformers>=4.51.0
+peft>=0.18.0
+torch>=2.4.0
+accelerate>=0.20.0
+numpy>=1.20.0
